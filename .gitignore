@@ -5,3 +5,16 @@
 *Test.java
 **/test/
 .m2/
+
+# 本地配置（含数据库/OSS/微信支付密钥，不入库）
+sky-server/src/main/resources/application.yml
+sky-server/src/main/resources/application-dev.yml
+sky-server/src/main/resources/application-local.yml
+
+# 支付证书
+*.pem
+*.p12
+
+# 系统与日志
+.DS_Store
+logs/
